@@ -14,21 +14,21 @@
      menu.style.paddingBottom = "12px";
      tituloNav.style.fontSize = "18px";
    }
-    if(scroll>530){
+    if(scroll>712){
       console.log(barra);
      barra.classList.add("pestana");
    }else{
      barra.classList.remove("pestana");
    }
 
-   if(scroll>1384 ){
+   if(scroll>1566 ){
     barra2.classList.add("pestana");
     barra.classList.remove("pestana");
   }else{
     barra2.classList.remove("pestana");
   }
 
-  if(scroll>1934){
+  if(scroll>2111){
    barra3.classList.add("pestana");
    barra2.classList.remove("pestana");
  }else{
